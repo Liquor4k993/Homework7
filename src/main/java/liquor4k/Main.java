@@ -38,5 +38,36 @@ public class Main {
             }
         }
         System.out.println();
+
+        //Задача 3
+        // Первый массив в обратном порядке
+        for (int i = integerArray.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(integerArray[i]);
+            } else {
+                System.out.print(integerArray[i] + ", ");
+            }
+        }
+        System.out.println();
+
+        // Второй массив в обратном порядке
+        for (int i = doubleArray.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(doubleArray[i]);
+            } else {
+                System.out.print(doubleArray[i] + ", ");
+            }
+        }
+        System.out.println();
+
+        // Третий массив в обратном порядке
+        for (int i = stringArray.length - 1; i >= 0; i--) {
+            if (i == 0) {
+                System.out.print(stringArray[i]);
+            } else {
+                System.out.print(stringArray[i] + ", ");
+            }
+        }
+        System.out.println();
     }
 }
