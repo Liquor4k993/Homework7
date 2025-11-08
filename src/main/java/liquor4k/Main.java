@@ -1,5 +1,7 @@
 package liquor4k;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         //задача 1
@@ -69,5 +71,16 @@ public class Main {
             }
         }
         System.out.println();
+
+        //Задача 4
+        // Преобразование нечетных чисел в четные
+        for (int i = 0; i < integerArray.length; i++) {
+            if (integerArray[i] % 2 != 0) {
+                integerArray[i] += 1;
+            }
+        }
+
+        // Вывод результата
+        System.out.println(Arrays.toString(integerArray));
     }
 }
